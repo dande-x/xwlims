@@ -105,14 +105,14 @@ window.location.href="index.php?r=lims/login";
                 <div class="navbar-right">
 
                     <ul class="nav navbar-nav">
-                        <li class="c_navbar_form">
+                        <!-- <li class="c_navbar_form">
                             <form class="navbar-form">
                                 <input type="text" class="form-control" placeholder="Search...">
                                 <div class="c_header_search_icon">
                                     <span class="glyphicon glyphicon-search"></span>
                                 </div>
                             </form>
-                        </li>
+                        </li> -->
                         <li class="c_header_login">
                             <a class="c_header_message" href="#" onclick="changePage(7)">
                                 <span class="glyphicon glyphicon-envelope"></span>
