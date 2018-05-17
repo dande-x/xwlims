@@ -121,6 +121,9 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         }
         if($this->load($arrData) && $this->validate())
         {
+            $this->user_class = $arrData['User']['user_class'];
+            $this->phone = $arrData['User']['phone'];
+            $this->address = $arrData['User']['address'];
 
             //$this->password = md5($this->password);
             if ($this->save()){
