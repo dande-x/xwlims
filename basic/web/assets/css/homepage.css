@@ -1,0 +1,23 @@
+.c_homepage_infolist{
+    list-style-type:none;
+}
+.list-group-item{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+@media (min-width: 768px) {
+  .c_homepage_avatar_container {
+    margin-left: 0;
+  }
+  
+}
+@media (max-width: 768px) {
+.c_homepage_infobutton{
+    margin-left: 20%;
+  }
+}
+
+.c_model_update_body{
+    padding: 50px;
+    padding-top: 10px;
+}

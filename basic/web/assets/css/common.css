@@ -1,0 +1,15 @@
+.c_btn_listitem{
+    display: inline-block;
+}
+
+.table{
+    white-space :nowrap;
+}
+
+.c_nav_small{
+    font-size: 12px;
+}
+
+.c_tab_title_hidden{
+    display: none !important;
+}

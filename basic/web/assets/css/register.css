@@ -1,0 +1,94 @@
+.c_form_register {
+    width: auto;
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+
+.c_register_logo_container {
+    text-align: center;
+}
+
+.c_register_logo {
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.c_register_title_container {
+    text-align: center;
+}
+
+.c_register_title {
+    vertical-align: middle;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.c_register_error_notice {
+    font-size: 8px;
+    color: red;
+    margin-left: 0.6rem;
+    visibility: visible;
+}
+
+
+.help-block {
+    color: red;
+}
+
+.c_control_label_small {
+    padding: 3px 0 !important;
+    font-size: 10px !important;
+    white-space: nowrap;
+}
+
+@media screen and (min-width:1px) and (max-width:768px) {
+    .c_control_label_small {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.c_input_require {
+    padding: 0;
+}
+
+.c_register_tologin_container {
+    height: auto;
+    text-align: right;
+}
+
+.c_register_tologin {
+    float: none;
+    width: auto;
+    margin-right: 1rem;
+}
+
+.form-group-sm {
+    margin-top: 10px;
+    padding-right: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+
+
+/*.c_btn_register{
+    width: 400px;
+}*/
+
+.c_register_btn_container {
+    text-align: center;
+    vertical-align: middle;
+}
