@@ -1,0 +1,40 @@
+.c_instrument_listitem{
+    cursor: pointer;
+}
+.c_instrument_infobutton button{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.c_btn_appointment{
+    margin-bottom: 10px;
+}
+
+.c_checkbox_lable{
+    font-weight: initial;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.c_dialog_input{
+    width: 90%;
+}
+
+.c_input_error_notice{
+    color: orangered;
+    font-size: 14px;
+}
+
+.c_margin_left_clear{
+    margin-left: 0 !important;
+}
+
+.c_add_image_preview{
+    width: 100%;
+    height: auto;
+}
+
+.c_margin_left{
+    margin-left: 5px !important;
+}
